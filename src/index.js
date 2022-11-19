@@ -14,7 +14,6 @@ const commands = [
   require('./commands/dare'),
   require('./commands/dare_hot'),
   require('./commands/truth_hot'),
-  require('./commands/kick'),
 ];
 
 require('dotenv').config();
