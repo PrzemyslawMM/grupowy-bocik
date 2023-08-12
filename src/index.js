@@ -7,14 +7,7 @@ const {
   Collection,
 } = require('discord.js');
 
-const commands = [
-  require('./commands/ver'),
-  require('./commands/test'),
-  require('./commands/truth'),
-  require('./commands/dare'),
-  require('./commands/dare_hot'),
-  require('./commands/truth_hot'),
-];
+const commands = [require('./commands/nowy'), require('./commands/ile')];
 
 require('dotenv').config();
 
